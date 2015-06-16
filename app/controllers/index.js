@@ -56,27 +56,22 @@ function createDumpList(){
 		dumpSection = Ti.UI.createListSection();
 		
 		if(i%2 === 0){
-			
-			dumpData = [
-				{item_title:{text: item.title},
-				 item_tags:{text: item.tags},
-				  item_tags_elems:{text: item.elems},
-				   properties: {backgroundColor: "#EAEAEA", height: "80dp"}}
-			];
-			
+			var back = "#EAEAEA";
 		}else{
-			dumpData = [
+			var back = "#FFFFFF";
+		}
+		
+		dumpData = [
 				{item_title:{text: item.title},
 				 item_tags:{text: item.tags},
 				  item_tags_elems:{text: item.elems},
-				   properties: {backgroundColor: "#FFFFFF", height: "80dp"}}
+				   properties: {backgroundColor: back, height: "80dp"}}
 			];
-		}
 		
 		dumpSection.setItems(dumpData);
 		sections.push(dumpSection);
 	}
-
+	
 	listView.sections = sections;
 	contentView.add(listView);
 	loadingElem.setVisible(false);
