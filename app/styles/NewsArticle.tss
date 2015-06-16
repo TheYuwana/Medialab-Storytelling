@@ -1,0 +1,16 @@
+".container": {
+	backgroundColor:"white",
+	layout: "composite"
+}
+
+"#test": {
+	
+	font: {
+        fontSize: 22,
+        fontWeight: "bold"
+    },
+	top: 200,
+	textAlign: "center",
+	layout: "absolute"
+}
+

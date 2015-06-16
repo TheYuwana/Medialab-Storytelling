@@ -1,0 +1,68 @@
+
+".container": {
+	backgroundColor:"white",
+	layout: "composite"
+}
+
+"#content":{
+	
+	backgroundColor:"white",
+	layout: "vertical"
+}
+
+"#header": {
+	
+	width: "100%",
+	layout: "horizontal",
+	height: "80dp",
+	backgroundColor: "#ffffff"
+}
+
+"#loader": {
+	
+	font: {
+        fontSize: 22,
+        fontWeight: "bold"
+    },
+	top: 200,
+	textAlign: "center",	
+	visible: false,
+	layout: "absolute"
+}
+
+
+".nav_button": {
+	
+	width: "33%"
+}
+
+".nav_text": {
+	
+	font: {
+        fontSize: 22,
+        fontWeight: "bold"
+    },
+    textAlign: "center",
+    top: 22,
+    color: "#000000"
+}
+
+
+"#nav_button_active": {
+	
+	backgroundColor: "#01FF36",
+	width: "33%",
+	height: "15dp",
+	top: 65,
+	left: 0,
+	layout: "absolute",
+	zIndex: 99
+}
+
+".nav_border": {
+	
+	backgroundColor: "#EAEAEA",
+	width: "2",
+	left: 0,
+	layout: "absolute"
+}

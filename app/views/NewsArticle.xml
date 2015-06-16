@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		
+		<Label id="test">Change text</Label>
+		
+	</Window>
+</Alloy>

@@ -1,0 +1,31 @@
+<Alloy>
+	<Window class="container">
+		
+		<View id="content">
+			
+			<View id="header">
+				<View id="nav_news" class="nav_button" onClick="getNewsList">
+					
+					<Label id="nav_news_text" class="nav_text">NIEUWS</Label>
+				</View>
+				
+				<View id="nav_trending" class="nav_button" onClick="getTrendingList">
+					<View class="nav_border"></View>
+					<Label id="nav_trending_text" class="nav_text">TRENDING</Label>
+				</View> 
+				
+				<View id="nav_dump" class="nav_button" onClick="getDumpList">
+					<View class="nav_border"></View>
+					<Label id="nav_dump_text" class="nav_text">DUMP</Label>
+				</View>
+			</View>
+			
+			
+				
+		</View>
+		
+		<View id="nav_button_active"></View>
+		<Label id="loader">Loading...</Label>
+
+	</Window>
+</Alloy>
