@@ -1,0 +1,140 @@
+
+"#container" : {
+  
+	backgroundColor:"white",
+	layout: "composite" 
+}
+
+"#content": {
+
+	backgroundColor:"white",
+	layout: "vertical"	
+}
+
+/*
+ * Header
+ * 
+ */
+
+"#header": {
+	
+	layout: "relative",
+	width: "100%",
+	height: "70dp"
+}
+
+"#header_title": {
+	
+	font: {
+        fontSize: 22,
+        fontWeight: "bold"
+    },
+	top: 5,
+	left: 15
+}
+
+"#header_tags": {
+	
+	color: "#01FF36",
+	font: {
+        fontSize: 18
+    },
+	top: 35,
+	left: 15
+}
+
+/*
+ * Navigation
+ * 
+ */
+
+"#navigation": {
+	
+	layout: "horizontal",
+	height: "70dp",
+	width: "100%"
+}
+
+".nav_item": {
+	
+	width: "50%",
+	backgroundColor: "#303030"
+}
+
+".nav_item_text": {
+	
+	color: "#01FF36",
+	font: {
+		fontWeight: "bold",
+        fontSize: 22
+    },
+	top: 15,
+	textAlign: "center"
+}
+
+
+/*
+ * Actionbar elements
+ * 
+ */
+
+"#actionBarContainer": {
+	
+	backgroundColor: "#303030",
+	height: "70dp",
+	width: "100%", 
+	layout: "horizontal"
+}
+
+".ActionBarIconArrow":{
+	left: 15,
+	top: 22, 
+	width: "30dp",
+	height: "30dp"
+}
+
+".ActionBarIconLogo":{
+	
+	left: 130,
+	top: 16, 
+	width: "217dp",
+	height: "41dp"
+}
+
+".ActionBarIconSearch":{
+	
+	left: 40,
+	top: 22, 
+	width: "33dp",
+	height: "34dp"
+}
+
+".ActionBarIconAdd":{
+	
+	left: 40,
+	top: 22, 
+	width: "35dp",
+	height: "35dp"
+}
+
+/*
+ * 
+ * Footer stuff
+ * 
+ */
+
+"#footer": {
+	
+	backgroundColor: "#303030",
+	layout: "horizontal",
+	bottom: 0,
+	width: "100%",
+	height: 75,
+	zIndex: 99,
+	visible: "false"
+}
+
+".footerIcon":{
+	
+	left: 115
+}

@@ -1,0 +1,46 @@
+<Alloy>
+	<Window id="container">
+			
+			<View id="content">
+				
+				<View id="action_container">
+					
+					<Label id="action_cancel" onClick="back">Annuleer</Label>
+					<Label id="action_save">Opslaan</Label>
+					<Label id="action_publish">Publiceer</Label>
+					
+				</View>
+				
+				<View id="headerContainer">
+					
+					<View id="headerBg">
+						
+						<TextArea id="headerTitle"></TextArea>
+					
+					</View>
+				
+				</View>
+				
+				<ScrollView id="body">
+					
+					<TextArea id="bodyHeader"></TextArea>
+					
+					<TextArea id="bodyTags"></TextArea>
+					
+					<TextArea id="bodyContent"></TextArea>
+					
+				</ScrollView>
+				
+			</View>
+			
+			<View id="footer">
+				
+				<ImageView class="footerIcon" image="/Icons/image.png" width="42" height="34"></ImageView>
+				<ImageView class="footerIcon" image="/Icons/photocamera.png" width="41" height="28"></ImageView>
+				<ImageView class="footerIcon" image="/Icons/text.png" width="35" height="28"></ImageView>
+				<ImageView class="footerIcon" image="/Icons/greenAudio.png" width="16" height="26"></ImageView>
+				
+			</View>
+			
+	</Window>
+</Alloy>

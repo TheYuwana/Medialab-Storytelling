@@ -1,12 +1,103 @@
 <Alloy>
 	<Window class="container">
 		
+		<View id="menu">
+			
+			<View id="menu_container">
+				
+				<View id="menu_intro">
+					<Label id="menu_intro_text">Hallo Yvo!</Label>
+				</View>
+				
+				<View id="menu_profile">
+					
+					<ImageView id="menu_profile_image" image="/images/PROFILEPIC.png"></ImageView>
+					
+					<View id="menu_profile_button" onClick="openProfile">
+						<Label id="menu_profile_button_text">Bekijk uw profiel</Label>
+					</View>
+					
+					<View  class="menu_profile_arrow_container">
+						<ImageView id="menu_item_arrow_four" class="menu_item_arrow" image="/Icons/arrow.png"></ImageView>
+					</View>
+					
+				</View>
+				
+				<View class="menu_item_container">
+					
+					<ImageView class="menu_item_icon" image="/Icons/BOEK.png"></ImageView>
+					
+					<Label class="menu_item_text">Geplaatst</Label>
+					
+					<Label class="menu_item_amount">34</Label>
+					
+				</View>
+				
+				<View class="menu_item_container">
+					
+					<ImageView class="menu_item_icon" image="/Icons/POSTS.png"></ImageView>
+					
+					<Label class="menu_item_text">Berichten</Label>
+					
+					<Label class="menu_item_amount">2</Label>
+					
+				</View>
+				
+				<View class="menu_item_container">
+					
+					<ImageView class="menu_item_icon" image="/Icons/STUDENT.png"></ImageView>
+					
+					<Label class="menu_item_text">Instructie video's</Label>
+					
+					<View  class="menu_item_arrow_container">
+						<ImageView id="menu_item_arrow_one" class="menu_item_arrow" image="/Icons/arrow.png"></ImageView>
+					</View>
+					
+				</View>
+				
+				<View class="menu_item_container">
+					
+					<ImageView class="menu_item_icon" image="/Icons/SETTINGS.png"></ImageView>
+					
+					<Label class="menu_item_text">Instellingen</Label>
+					
+					<View  class="menu_item_arrow_container">
+						<ImageView id="menu_item_arrow_two" class="menu_item_arrow" image="/Icons/arrow.png"></ImageView>
+					</View>
+					
+				</View>
+				
+			</View>
+			
+			<View class="menu_item_footer">
+				
+				<ImageView class="menu_item_icon" image="/Icons/LOGOUT.png"></ImageView>
+				
+				<Label class="menu_item_text">Uitloggen</Label>
+				
+				<View  class="menu_item_arrow_container">
+					<ImageView id="menu_item_arrow_three" class="menu_item_arrow" image="/Icons/arrow.png"></ImageView>
+				</View>
+				
+			</View>
+		
+		</View>
+		
 		<View id="content">
+			
+			<View id="actionBarContainer">
+			
+				<ImageView class="ActionBarIconMenu" image="/Icons/menu.png" onClick="openMenu"></ImageView>
+				<ImageView class="ActionBarIconLogo" image="/Icons/open_rotterdam.png"></ImageView>
+				<ImageView class="ActionBarIconSearch" image="/Icons/zoek.png"></ImageView>
+				<ImageView class="ActionBarIconAdd" image="/Icons/Plus.png" onClick="openAdd"></ImageView>
+			
+			</View>
 			
 			<View id="header">
 				<View id="nav_news" class="nav_button" onClick="getNewsList">
 					
-					<Label id="nav_news_text" class="nav_text">NIEUWS</Label>
+					<Label id="nav_news_text" class="nav_text">STORIES</Label>
 				</View>
 				
 				<View id="nav_trending" class="nav_button" onClick="getTrendingList">
@@ -16,12 +107,9 @@
 				
 				<View id="nav_dump" class="nav_button" onClick="getDumpList">
 					<View class="nav_border"></View>
-					<Label id="nav_dump_text" class="nav_text">DUMP</Label>
+					<Label id="nav_dump_text" class="nav_text">NEW</Label>
 				</View>
-			</View>
-			
-			
-				
+			</View>				
 		</View>
 		
 		<View id="nav_button_active"></View>

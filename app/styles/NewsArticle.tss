@@ -1,16 +1,157 @@
-".container": {
+"#container": {
 	backgroundColor:"white",
 	layout: "composite"
 }
 
-"#test": {
+/*
+ * Actionbar elements
+ * 
+ */
+"#actionBarContainer": {
 	
-	font: {
-        fontSize: 22,
-        fontWeight: "bold"
-    },
-	top: 200,
+	backgroundColor: "#303030",
+	height: "70dp",
+	width: "100%", 
+	layout: "horizontal"
+}
+
+".ActionBarIconArrow":{
+	left: 15,
+	top: 22, 
+	width: "30dp",
+	height: "30dp"
+}
+
+".ActionBarIconLogo":{
+	
+	left: 130,
+	top: 16, 
+	width: "217dp",
+	height: "41dp"
+}
+
+".ActionBarIconSearch":{
+	
+	left: 40,
+	top: 22, 
+	width: "33dp",
+	height: "34dp"
+}
+
+".ActionBarIconAdd":{
+	
+	left: 40,
+	top: 22, 
+	width: "35dp",
+	height: "35dp"
+}
+
+"#content": {
+	layout: "vertical"
+}
+
+"#headerContainer": {
+	
+	backgroundImage: "/item3.png",
+	width: "100%",
+	height: "30%",
+	top: 0,
+	layout: "relative"
+}
+
+"#headerBg": {
+	
+	layout: "absolute",
+	width:"100%",
+	height: "50dp",
+	bottom: 0,
+	backgroundColor: "#303030",
+	opacity: 0.8
+}
+
+"#headerTitle": {
+	
+	color: "#FFFFFF",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	bottom: 10,
 	textAlign: "center",
 	layout: "absolute"
 }
 
+"#body": {
+	
+	width: "90%",
+	height: "55%",
+	left: 30,
+	layout: "vertical"
+}
+
+"#bodyHeader": {
+	
+	color: "#303030",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	height: "auto",
+	top: 20
+}
+
+"#bodyTags": {
+	
+	color: "#01FF36",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	height: "auto",
+	left: 0,
+	top: 20
+}
+
+".bodyContent": {
+	
+	font: {fontSize: "20dp"},
+	height: "auto",
+	top: 20
+}
+
+
+".bodyImage":{
+	width: "200dp",
+	height: "200dp",
+	layout: "absolute",
+	top:0,
+	left:0
+}
+
+".imageText":{
+	
+	height: "auto",
+	font: {fontSize: "20dp"},
+	top: 0,
+	left:220,
+	layout: "absolute"
+}
+"#articleTxtWrapper":{
+	top:20,
+	height: "200dp"
+}
+
+/*
+ * 
+ * Footer stuff
+ * 
+ */
+
+"#footer": {
+	
+	backgroundColor: "#303030",
+	layout: "horizontal",
+	bottom: 0,
+	width: "100%",
+	height: 75,
+	zIndex: 99
+}
+
+".footerIcon":{
+	
+	width:"65dp",
+	height:"65dp",
+	left: 105,
+	top: 5
+}

@@ -1,0 +1,60 @@
+<Alloy>
+	<Window id="container">
+		
+		<View id="content">
+			
+			<View id="actionBarContainer">
+			
+				<ImageView class="ActionBarIconArrow" image="/Icons/arrow.png" onClick="back"></ImageView>
+				<ImageView class="ActionBarIconLogo" image="/Icons/open_rotterdam.png"></ImageView>
+				<ImageView class="ActionBarIconSearch" image="/Icons/zoek.png"></ImageView>
+				<ImageView class="ActionBarIconAdd" image="/Icons/Plus.png" onClick="openAdd"></ImageView>
+			
+			</View>
+			
+			<ImageView id="media_image" image="/article.jpg"></ImageView>
+			
+			<View id="media_title_container">
+				
+				<Label id="media_title">Artwork name</Label>
+				
+			</View>
+			
+			<View id="media_topic_container">
+				
+				<Label id="media_topic_title"> Espressobar dates moet sluiten</Label>
+				
+				<Label id="media_topic_tags">Tags: Espressobar Dates Koffie Koffiebar facebook</Label>
+				
+			</View>
+			
+			<View id="media_user_container">
+				
+				<Label id="media_user_title">Foto toegevoegd door:</Label>
+				
+				<ImageView id="media_user_icon" image="/Icons/profile.png"></ImageView>
+				
+				<Label id="media_user_name">Yvo van Oosterum</Label>
+				
+				<ImageView id="media_user_arrow_up" image="/Icons/vote.png"></ImageView>
+				
+				<Label id="media_user_votes">13</Label>
+				
+				<ImageView id="media_user_arrow_down" image="/Icons/voteDown.png"></ImageView>
+				
+			</View>
+			
+		</View>
+		
+		<View id="media_footer_container">
+				
+			<Label id="media_footer_prev" onClick="prevMedia">Vorige</Label>
+			
+			<View id="media_footer_separator"></View>
+			
+			<Label id="media_footer_next" onClick="nextMedia">Volgende</Label>
+			
+		</View>
+		
+	</Window>
+</Alloy>

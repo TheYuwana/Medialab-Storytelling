@@ -1,7 +1,56 @@
 <Alloy>
-	<Window class="container">
-		
-		<Label id="test">Change text</Label>
-		
+	<Window id="container">
+			
+			<View id="content">
+				
+				<View id="actionBarContainer">
+			
+					<ImageView class="ActionBarIconArrow" image="/Icons/arrow.png" onClick="backToNews"></ImageView>
+					<ImageView class="ActionBarIconLogo" image="/Icons/open_rotterdam.png"></ImageView>
+					<ImageView class="ActionBarIconSearch" image="/Icons/zoek.png"></ImageView>
+					<ImageView class="ActionBarIconAdd" image="/Icons/Plus.png" onClick="openAdd"></ImageView>
+				
+				</View>
+				
+				<View id="headerContainer">
+				
+					<View id="headerBg">
+						
+						<Label id="headerTitle"></Label>
+					
+					</View>
+				
+				</View>
+				
+				<ScrollView id="body">
+					
+					<Label id="bodyHeader">Espresso Dates moest na twee jaar verhuizen, omdat de verhuurder zelf een koffiebar wilde beginnen. Hierdoor werd de facebookpagina 'boycot 2e middellandstraat te rotterdam' in het leven geroepen.</Label>
+					
+					<Label id="bodyTags">Tags: Espressobar Dates Koffiebar Facebook</Label>
+					
+					<Label class="bodyContent">Na twee jaar keihard te hebben gewerkt, zit de tijd van Espressobar Dates aan de 2e Middellandstraat 27 er definitief op. De huisbaas heeft besloten de huurovereenkomst op te zeggen. En niet zomaar!</Label>
+					
+					<View id="articleTxtWrapper">
+						
+						<ImageView class="bodyImage" image="/article.jpg"></ImageView>
+					
+						<Label class="imageText">Hij heeft het ontzettend originele idee opgevat om in het huidige pand een, jawel, expressobar te openen. Dit wordt ontzettend betreuren door de medewerkers van de Expressobar Dates, en zijn er zelfs verschrikkelijk boos om.</Label>
+					
+					</View>
+					
+					<Label class="bodyContent">Het valt niet echt een gevalletje van #supportyourloccals te noemen. Maar Expressobar Dates is niet te stoppen en ze gaan gewoon door met het verkopen van koffie. Dit gaan ze doen op een nieuw adres 150 meter verderop.</Label>
+					
+				</ScrollView>
+				
+			</View>
+			
+			<View id="footer">
+				
+				<ImageView class="footerIcon" image="/Icons/facebook.png"></ImageView>
+				<ImageView class="footerIcon" image="/Icons/twitter.png"></ImageView>
+				<ImageView class="footerIcon" image="/Icons/mail.png"></ImageView>
+				
+			</View>
+			
 	</Window>
 </Alloy>

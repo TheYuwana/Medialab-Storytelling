@@ -1,0 +1,230 @@
+
+".container" : {
+
+	backgroundColor: "#FFFFFF",
+	layout: "composite"
+}
+
+"#content": {
+	
+	backgroundColor: "#FFFFFF",
+	layout: "vertical"
+}
+
+
+/*
+ * Head Image and title
+ * 
+ */
+
+"#media_image":{
+	
+	width:"100%",
+	height:"40%"	
+	
+}
+
+"#media_title_container":{
+	
+	backgroundColor:"#303030",
+	width: "100%",
+	height: "40dp"
+}
+
+"#media_title":{
+	
+	color: "#EAEAEA",
+	font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+	textAlign: "center"
+}
+
+/*
+ * Topic
+ * 
+ */
+
+"#media_topic_container":{
+	
+	width: "100%",
+	height: "100dp"
+}
+
+"#media_topic_title":{
+	
+	color: "#303030",
+	font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+    top: 15,
+	left: 15
+}
+
+"#media_topic_tags":{
+	
+	color: "#01FF36",
+	font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+    top: 50,
+	left: 15
+}
+
+/*
+ * User
+ * 
+ */
+
+"#media_user_container":{
+	width: "100%",
+	height: "100dp",
+	backgroundColor: "#EAEAEA"
+}
+
+"#media_user_title":{
+	
+	color: "#303030",
+	font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+    top: 10,
+	left: 15
+}
+
+"#media_user_icon":{
+	
+	top: 65,
+	left: 15,
+	width: "12dp",
+	height: "16dp"	
+}
+
+"#media_user_name":{
+	
+	color: "#303030",
+	font: {
+        fontSize: 20,
+        fontWeight: "bold"
+    },
+    top: 58,
+	left: 35
+}
+
+"#media_user_arrow_up":{
+	
+	top: 20,
+	right: 20,
+	width: "16dp",
+	height: "21dp"
+}
+
+"#media_user_votes":{
+	
+	color: "#303030",
+	font: {
+		fontSize: "18dp",
+		 fontWeight: 'bold'
+	},
+	top: 39,
+	right: 18,
+	textAlign: "center"	
+}
+
+"#media_user_arrow_down":{
+	
+	top: 65,
+	right: 20,
+	width: "16dp",
+	height: "21dp"
+}
+
+/*
+ * User
+ * 
+ */
+
+"#media_footer_container":{
+	
+	width:"100%",
+	height: "75dp",
+	bottom: 0,
+	backgroundColor: "#4F5458"
+}
+
+"#media_footer_prev":{
+	
+	color: "#01FF36",
+	font: {
+		fontSize: "20dp",
+		 fontWeight: 'bold'
+	},
+	top: 25,
+	left: 100
+}
+
+"#media_footer_separator":{
+	width: "2dp",
+	height: "50dp",
+	top: 15,
+	backgroundColor: "#01FF36"
+}
+
+"#media_footer_next":{
+	
+	color: "#01FF36",
+	font: {
+		fontSize: "20dp",
+		 fontWeight: 'bold'
+	},
+	top: 25,
+	right: 100
+}
+
+/*
+ * Actionbar elements
+ * 
+ */
+
+"#actionBarContainer": {
+	
+	backgroundColor: "#303030",
+	height: "70dp",
+	width: "100%", 
+	layout: "horizontal"
+}
+
+".ActionBarIconArrow":{
+	left: 15,
+	top: 22, 
+	width: "30dp",
+	height: "30dp"
+}
+
+".ActionBarIconLogo":{
+	
+	left: 130,
+	top: 16, 
+	width: "217dp",
+	height: "41dp"
+}
+
+".ActionBarIconSearch":{
+	
+	left: 40,
+	top: 22, 
+	width: "33dp",
+	height: "34dp"
+}
+
+".ActionBarIconAdd":{
+	
+	left: 40,
+	top: 22, 
+	width: "35dp",
+	height: "35dp"
+}

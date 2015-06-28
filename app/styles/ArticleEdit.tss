@@ -1,0 +1,136 @@
+"#container": {
+	backgroundColor:"white",
+	layout: "composite"
+}
+
+"#content": {
+	layout: "vertical"
+}
+
+/*
+ * 
+ *  Actions
+ * 
+ */
+
+"#action_container":{
+	
+	width: "100%",
+	height: "70dp",
+	backgroundColor: "#303030"
+}
+
+"#action_cancel":{
+	
+	color: "#01FF36",
+	font: {fontSize: "20dp"},
+	left: 15
+}
+
+"#action_save":{
+	
+	color: "#01FF36",
+	font: {fontSize: "20dp"},
+	right: 150
+}
+
+"#action_publish":{
+	
+	color: "#01FF36",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	right: 15
+}
+
+/*
+ * 
+ * Header
+ * 
+ */
+
+"#headerContainer": {
+	
+	backgroundImage: "/item3.png",
+	width: "100%",
+	height: "300dp"
+}
+
+"#headerBg": {
+	
+	width:"100%",
+	height: "50dp",
+	bottom: 0,
+	backgroundColor: "#303030",
+	opacity: 0.8
+}
+
+"#headerTitle": {
+	
+	color: "#FFFFFF",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	top: 5,
+	textAlign: "center",
+}
+
+/*
+ * 
+ * Content
+ * 
+ */
+
+"#body": {
+	
+	width: "90%",
+	height: "55%",
+	left: 30,
+	layout: "vertical"
+}
+
+"#bodyHeader": {
+	
+	color: "#303030",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	borderWidth: 1,
+	borderColor: '#000',
+	top: 20
+}
+
+"#bodyTags": {
+	
+	color: "#01FF36",
+	font: {fontSize: "20dp", fontWeight: 'bold'},
+	borderWidth: 1,
+	borderColor: '#000',
+	left: 0,
+	top: 20
+}
+
+"#bodyContent": {
+	
+	color: "#303030",
+	font: {fontSize: "20dp"},
+	borderWidth: 1,
+  	borderColor: '#000',
+	top: 20
+}
+
+/*
+ * 
+ * Footer stuff
+ * 
+ */
+
+"#footer": {
+	
+	backgroundColor: "#303030",
+	layout: "horizontal",
+	bottom: 0,
+	width: "100%",
+	height: 75,
+	zIndex: 99
+}
+
+".footerIcon":{
+	
+	top: 25,
+	left: 95
+}

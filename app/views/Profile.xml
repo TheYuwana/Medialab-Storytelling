@@ -1,0 +1,97 @@
+<Alloy>
+	<Window id="container">
+		
+		<View id="content">
+			
+			<View id="actionBarContainer">
+			
+				<ImageView class="ActionBarIconArrow" image="/Icons/arrow.png" onClick="backToHome"></ImageView>
+				<ImageView class="ActionBarIconLogo" image="/Icons/open_rotterdam.png"></ImageView>
+				<ImageView class="ActionBarIconSearch" image="/Icons/zoek.png"></ImageView>
+				<ImageView class="ActionBarIconAdd" image="/Icons/Plus.png" onClick="openAdd"></ImageView>
+			
+			</View>
+			
+			<View id="user_photo_container">
+				
+				<ImageView id="user_photo" image="/images/PROFILEPIC.png"></ImageView>
+				
+			</View>
+			
+			<View id="user_name_container">
+				
+				<ImageView id="user_name_icon" image="/Icons/camera.png"></ImageView>
+				<Label id="user_name_text">Yvo van Oosterum</Label>
+				
+			</View>
+			
+			<View id="user_message_container">
+				
+				<ImageView id="user_message_icon" image="/Icons/BOEK.png"></ImageView>
+				<Label id="user_message_text">Geplaatste berichten</Label>
+				<Label id="user_message_amount">34</Label>
+				
+			</View>
+			
+			<View id="user_status_container">
+				
+				<View class="user_status_block">
+					<ImageView class="user_status_icon" image="/Icons/chat2.png"></ImageView>
+					<Label class="user_status_icon_text">15</Label>
+				</View>
+				
+				<View class="user_status_block">
+					<ImageView class="user_status_icon" image="/Icons/camera.png"></ImageView>
+					<Label class="user_status_icon_text">14</Label>
+				</View>
+				
+				<View class="user_status_block">
+					<ImageView class="user_status_icon" image="/Icons/video.png"></ImageView>
+					<Label class="user_status_icon_text">4</Label>
+				</View>
+				
+				<View class="user_status_block">
+					<ImageView class="user_status_icon" image="/Icons/mic.png"></ImageView>
+					<Label class="user_status_icon_text" right="40">1</Label>
+				</View>
+				
+			</View>
+			
+			<View id="user_experience_container">
+				
+				<Label id="user_level_current">lvl 8</Label>
+				
+				<View id="user_exp_bar">
+					<View id="user_exp_progress"></View>
+				</View>
+				
+				<Label id="user_level_next">lvl 9</Label>
+				
+			</View>
+			
+			<View id="user_badges_container">
+				
+				<ImageView id="user_badges_icon" image="/Icons/badgeMini.png"></ImageView>
+				<Label id="user_badges_text">Badges</Label>
+				<Label id="user_badges_amount">2</Label>
+				
+			</View>
+			
+			<View id="user_badges_level_container">
+				
+				<View class="user_badges_level_box">
+					<ImageView class="user_badges_level_image" image="/Icons/BADGE1.png"></ImageView>
+					<Label class="user_badges_level_text">Journalist lvl 5</Label>
+				</View>
+				
+				<View class="user_badges_level_box">
+					<ImageView class="user_badges_level_image" image="/Icons/BADGE2.png"></ImageView>
+					<Label class="user_badges_level_text">Photographer lvl 5</Label>
+				</View>
+				
+			</View>
+			
+		</View>
+		
+	</Window>
+</Alloy>

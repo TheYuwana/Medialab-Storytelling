@@ -1,0 +1,46 @@
+<Alloy>
+	<Window id="container">
+		
+		<View id="content">
+			
+			<View id="actionBarContainer">
+			
+				<ImageView class="ActionBarIconArrow" image="/Icons/arrow.png" onClick="backToDump"></ImageView>
+				<ImageView class="ActionBarIconLogo" image="/Icons/open_rotterdam.png"></ImageView>
+				<ImageView class="ActionBarIconSearch" image="/Icons/zoek.png"></ImageView>
+				<ImageView class="ActionBarIconAdd" image="/Icons/Plus.png" onClick="openAdd"></ImageView>
+			
+			</View>
+			
+			<View id="header">
+				
+				<Label id="header_title"></Label>
+				
+				<Label id="header_tags"></Label>
+				
+			</View>
+			
+			<View id="navigation">
+				
+				<View id="nav_stories" class="nav_item" onClick="getStoryList">
+					<Label id="nav_stories_text" class="nav_item_text">Stories</Label>
+				</View>
+				
+				<View id="nav_media" class="nav_item" onClick="getMediaView">
+					<Label id="nav_media_text" class="nav_item_text">Media</Label>
+				</View>
+				
+			</View>
+			
+		</View>
+		
+		<View id="footer">
+				
+			<ImageView class="footerIcon" image="/Icons/greenCamera.png" width="48" height="34" top="20"></ImageView>
+			<ImageView class="footerIcon" image="/Icons/greenVideo.png" width="58" height="46" top="12"></ImageView>
+			<ImageView class="footerIcon" image="/Icons/greenAudio.png"  width="28" height="45" top="13"></ImageView>
+			
+		</View>
+		
+	</Window>
+</Alloy>

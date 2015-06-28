@@ -4,6 +4,199 @@
 	layout: "composite"
 }
 
+/*
+ * Menu elements
+ * 
+ */
+
+"#menu":{
+	
+	width: "70%",
+	height: "100%",
+	layout: "absolute",
+	zIndex: 99,
+	backgroundColor: "#303030"
+}
+
+"#menu_container":{
+	
+	layout: "vertical"
+}
+
+"#menu_intro":{
+	
+	height: "80dp",
+	width: "100%",
+	backgroundColor: "#4F5458"
+}
+
+"#menu_intro_text":{
+	
+	color: "#EAEAEA",
+	font: {
+	    fontSize: 22,
+	    fontWeight: "bold"
+   },
+   top: 22,
+   textAlign: "center"
+}
+
+"#menu_profile":{
+	
+	layout: "relative",
+	height: "150dp"
+}
+
+"#menu_profile_image":{
+	
+	top: 15,
+	left: 15,
+	width: "117dp",
+	height: "117dp"
+}
+
+".menu_item_icon":{
+	
+	top: 22,
+	left: 18,
+	width: "37dp",
+	height: "30dp"
+}
+
+"#menu_profile_button": {
+	
+	backgroundColor: "#4F5458",
+	width: "220",
+	height: "50",
+	right: 50,
+	borderRadius:10
+}
+
+"#menu_profile_button_text": {
+	
+	color: "#EAEAEA",
+	font: {
+	    fontSize: 22,
+	    fontWeight: "bold"
+   },
+   top: 10,
+   textAlign: "center"
+}
+
+".menu_profile_arrow_container": {
+	
+   	right: 30,
+   	width: "50dp",
+   	height: "50dp",
+   	borderRadius:10,
+   	backgroundColor: "#4F5458"
+}
+
+".menu_item_container":{
+	
+	height: "100dp",
+	widht: "100%"
+}
+
+".menu_item_footer": {
+	
+	height: "100dp",
+	widht: "100%",
+	bottom: 0
+}
+
+".menu_item_text": { 
+	
+	color: "#EAEAEA",
+	font: {
+	    fontSize: 22,
+	    fontWeight: "bold"
+   	},
+   	top: 20,
+   	left: 70
+}
+
+".menu_item_amount": {
+	
+	color: "#EAEAEA",
+	font: {
+	    fontSize: 22,
+	    fontWeight: "bold"
+   	},
+   	top: 20,
+   	right: 30,
+   	width: "40dp",
+   	height: "40dp",
+   	borderRadius:15,
+   	backgroundColor: "#4F5458",
+   	textAlign: "center"
+}
+
+".menu_item_arrow_container": {
+	
+	top: 20,
+   	right: 30,
+   	width: "40dp",
+   	height: "40dp",
+   	borderRadius:15,
+   	backgroundColor: "#4F5458"
+}
+
+".menu_item_arrow": {
+	
+	width: "20dp",
+   	height: "20dp"
+}
+
+/*
+ * Actionbar elements
+ * 
+ */
+
+"#actionBarContainer": {
+	
+	backgroundColor: "#303030",
+	height: "70dp",
+	width: "100%", 
+	layout: "horizontal"
+}
+
+".ActionBarIconMenu":{
+	left: 15,
+	top: 22, 
+	width: "45dp",
+	height: "29dp"
+}
+
+".ActionBarIconLogo":{
+	
+	left: 130,
+	top: 16, 
+	width: "217dp",
+	height: "41dp"
+}
+
+".ActionBarIconSearch":{
+	
+	left: 40,
+	top: 22, 
+	width: "33dp",
+	height: "34dp"
+}
+
+".ActionBarIconAdd":{
+	
+	left: 40,
+	top: 22, 
+	width: "35dp",
+	height: "35dp"
+}
+
+/*
+ * Content
+ * 
+ */
+
 "#content":{
 	
 	backgroundColor:"white",
@@ -53,10 +246,10 @@
 	backgroundColor: "#01FF36",
 	width: "33%",
 	height: "15dp",
-	top: 65,
+	top: 136,
 	left: 0,
 	layout: "absolute",
-	zIndex: 99
+	zIndex: 90
 }
 
 ".nav_border": {
